@@ -17,7 +17,7 @@ def reducer(shuffled_data, target_word):
     return sum(shuffled_data.get(target_word.lower(), []))
 
 # Read file 
-file_path = "sample.txt" 
+file_path = "BDA2.txt" 
 target_word = "data"  
 
 # Read file content
